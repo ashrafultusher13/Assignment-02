@@ -36,7 +36,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.middle-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /* MAIN STYLING  */
 
 /* navbar styling */
@@ -45,8 +48,6 @@
 }
 
 .nav-content {
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,19 +92,30 @@
 }
 .banner-img {
   text-align: center;
-  /* margin-bottom: 40px; */
 }
 .hero-circle {
   width: 350px;
   position: relative;
   top: 80px;
+  left: 22px;
 }
 .microphone {
   position: absolute;
-  right: 700px;
   top: 250px;
+  left: 725px;
 }
-
+.new {
+  color: #1a0b2e;
+  background-color: #00ff88;
+  padding: 8px 16px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  position: absolute;
+  top: 190px;
+  left: 850px;
+}
 .banner-info {
   text-align: center;
   margin-top: 120px;
@@ -117,7 +129,7 @@
 }
 .bn-description {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 24px;
 }
 .banner-btn {
@@ -144,4 +156,39 @@
 #sub-btn,
 #spotify-btn {
   margin-bottom: 100px;
+}
+/* about styling */
+.about {
+  background-color: #1a0b2e;
+  text-align: center;
+}
+.podcast {
+  padding: 50px 0 80px;
+}
+.podcast h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 16px;
+}
+.podcast p {
+  font-size: 1rem;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.rating {
+  padding: 80px 0 120px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.rating-card h1 {
+  color: #00ff88;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+.rating-card p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
 }
