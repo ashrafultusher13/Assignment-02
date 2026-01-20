@@ -195,7 +195,6 @@
 /* choose styling */
 .choose {
   background-color: #230e3d;
-  /* text-align: center; */
 }
 .choose h1 {
   padding: 120px 0 40px;
@@ -239,4 +238,99 @@
   font-size: 1rem;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* feature styling */
+.feature {
+  background-color: #1a0b2e;
+  text-align: center;
+}
+.episodes {
+  padding: 120px 0 120px;
+}
+.episodes h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 40px;
+}
+.episode-container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.episode-card-info {
+  background-color: #250d44;
+  padding: 24px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.episode-card iframe {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.episode-card h3 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 12px;
+  text-align: left;
+}
+.episode-card p {
+  font-size: 1rem;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+}
+.video-min {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+}
+.video-min p {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  color: #00ff88;
+}
+.host {
+  padding-bottom: 120px;
+}
+.host h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 40px;
+}
+.host-card {
+  background-color: #351165;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 40px;
+}
+.host-card-info h1 {
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.host-card-info p {
+  font-size: 1rem;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  margin-bottom: 16px;
+}
+.host-link {
+  text-align: left;
+  display: flex;
+  gap: 8px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.host-links {
+  border: 1px solid #533c72;
+  border-radius: 50%;
+  padding: 12px;
 }
