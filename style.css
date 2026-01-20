@@ -86,6 +86,35 @@
   align-items: center;
   gap: 4px;
   cursor: pointer;
+  animation: color-change 2s ease-in-out infinite alternate;
+}
+@keyframes color-change {
+  0% {
+    background: #2a7b9b;
+    background: linear-gradient(
+      90deg,
+      rgba(42, 123, 155, 1) 0%,
+      rgba(87, 199, 133, 1) 50%,
+      rgba(237, 221, 83, 1) 100%
+    );
+  }
+  50% {
+    background: #3f5efb;
+    background: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(252, 70, 107, 1) 100%
+    );
+  }
+  100% {
+    background: #833ab4;
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+  }
 }
 
 /* banner styling */
@@ -120,7 +149,17 @@
   position: relative;
   top: -230px;
   left: -120px;
+  animation: new-animate 2s ease-in-out infinite normal;
 }
+@keyframes new-animate {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: #00ff88;
+  }
+}
+
 .banner-info {
   text-align: center;
   padding-bottom: 100px;
