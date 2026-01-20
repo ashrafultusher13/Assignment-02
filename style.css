@@ -192,3 +192,51 @@
   line-height: 20px;
   color: rgba(255, 255, 255, 0.6);
 }
+/* choose styling */
+.choose {
+  background-color: #230e3d;
+  /* text-align: center; */
+}
+.choose h1 {
+  padding: 120px 0 40px;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+.choose-container {
+  display: grid;
+  gap: 30px;
+  padding-bottom: 120px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+#headphone {
+  padding-top: 107px;
+  grid-row: span 2;
+}
+#device {
+  grid-column: span 2;
+}
+#location {
+  grid-column: span 2;
+}
+#interview {
+  grid-column: span 2;
+}
+
+.choose-card {
+  /* padding: 107px 40px; */
+  padding: 40px;
+  background-color: #351165;
+  border-radius: 40px;
+}
+.choose-card h3 {
+  margin: 16px 0 16px;
+  font-size: 1.5rem;
+  color: white;
+}
+.choose-card p {
+  font-size: 1rem;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
