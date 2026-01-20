@@ -385,9 +385,9 @@
 /* footer styling */
 footer {
   background-image: url(./assets/footer-bg.png);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   overflow-x: hidden;
   width: 100%;
 }
