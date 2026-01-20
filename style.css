@@ -121,7 +121,9 @@
 .banner {
   background-image: url(./assets/hero-bg.png);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
+  overflow-x: hidden;
 }
 .banner-img {
   text-align: center;
