@@ -11,6 +11,10 @@
   box-sizing: border-box;
   /* border: 2px solid red; */
 }
+html, body {
+  overflow-x: hidden;
+}
+
 /* SHARED STYLE */
 .gradient-background {
   background: var(
